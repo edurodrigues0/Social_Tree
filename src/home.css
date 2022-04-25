@@ -1,0 +1,41 @@
+.Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SocialPhotoContainer {
+  height: 13.3rem;
+  width: 13.3rem;
+
+  border: 2px solid;
+  border-color: var(--purple);
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.SocialPhoto {
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 100%;
+}
+
+.SocialName {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.SocialIcons {
+  width: 14.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.25rem;
+}
